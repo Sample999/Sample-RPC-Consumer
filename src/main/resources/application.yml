@@ -1,0 +1,11 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: rpc-spring-boot-starter-test-consumer
+
+logging:
+  level:
+    root: INFO
+  pattern: "%d %-5level [%thread] %logger{35} - %msg%n"
